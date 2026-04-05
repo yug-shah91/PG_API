@@ -9,6 +9,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+@Entity
 @Table(name = "rent_records",
        uniqueConstraints = @UniqueConstraint(
            name = "uq_rent_tenant_month_year",
