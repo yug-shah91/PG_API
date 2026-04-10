@@ -60,12 +60,12 @@ public class PGService {
     @Transactional
     public PGResponse updateMyPg(String ownerEmail, PGRequest request) {
         PG pg = getOwnerPg(ownerEmail);
-        if (request.getName() != null)           pg.setName(request.getName());
-        if (request.getAddress() != null)        pg.setAddress(request.getAddress());
-        if (request.getCity() != null)           pg.setCity(request.getCity());
-        if (request.getDescription() != null)    pg.setDescription(request.getDescription());
-        if (request.getContactPhone() != null)   pg.setContactPhone(request.getContactPhone());
-        if (request.getBaseMonthlyRent() != null) pg.setBaseMonthlyRent(request.getBaseMonthlyRent());
+        if (request.getName() != null) pg.setName(request.getName());
+        if (request.getAddress() != null) pg.setAddress(request.getAddress());
+        if (request.getCity() != null)pg.setCity(request.getCity());
+        if (request.getDescription() != null)pg.setDescription(request.getDescription());
+        if (request.getContactPhone() != null)pg.setContactPhone(request.getContactPhone());
+        if (request.getBaseMonthlyRent() != null)pg.setBaseMonthlyRent(request.getBaseMonthlyRent());
         return toResponse(pgRepository.save(pg));
     }
 
