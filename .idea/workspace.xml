@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34e180bb-9e4d-448d-8cbd-e5b4a4317313" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pg/service/PGService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pg/service/PGService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +105,10 @@
       <workItem from="1775636955912" duration="903000" />
       <workItem from="1775659507256" duration="63000" />
       <workItem from="1775703311315" duration="12000" />
+      <workItem from="1775836444801" duration="31000" />
+      <workItem from="1775883976948" duration="4000" />
+      <workItem from="1776008820167" duration="404000" />
+      <workItem from="1776088841727" duration="46000" />
     </task>
     <servers />
   </component>

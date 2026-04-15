@@ -1,4 +1,5 @@
 PG Management API : 
+
 | Java, Spring Boot, Spring Security, JWT, MySQL, Multi-Tenancy, Swagger UI
 
 Built a multi-tenant SaaS REST API serving multiple PG owners with complete data isolation using shared-schema multi-tenancy, enforced via JWT-based owner identity resolution (prevents IDOR attacks)
